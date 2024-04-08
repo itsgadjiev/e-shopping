@@ -40,10 +40,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Carter": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Mapster": {
               "target": "Package",
               "version": "[7.4.0, )"
