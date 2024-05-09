@@ -6,3 +6,5 @@ services:
 
 volumes:
   postgres_catalog:
+  
+  

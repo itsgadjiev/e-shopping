@@ -3,7 +3,7 @@ services:
   catalogdb:
     container_name: catalogdb
     environment:
-      POSTGRES_DB: CatalogDb_micro
+      POSTGRES_DB: CatalogDb
       POSTGRES_PASSWORD: admin
       POSTGRES_USER: postgres
     image: postgres
@@ -14,7 +14,7 @@ services:
         target: 5432
         published: "5432"
         protocol: tcp
-    restart: always
+    restart: unless-stopped
     volumes:
       - type: volume
         source: postgres_catalog

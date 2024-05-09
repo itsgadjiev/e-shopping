@@ -120,7 +120,7 @@
           "lib/net7.0/Mapster.Core.dll": {}
         }
       },
-      "Marten/7.6.0": {
+      "Marten/7.8.0": {
         "type": "package",
         "dependencies": {
           "JasperFx.CodeGeneration": "3.5.0",
@@ -1674,10 +1674,10 @@
         "mapster.core.nuspec"
       ]
     },
-    "Marten/7.6.0": {
-      "sha512": "tsFTyg8hYxTdQzRt7N3vTyAaLBRXp5FqF+ODUneWekHR0BFrQ4rdWhatJ7seWrWJD5QZeZ6eomp2yuyTbwbi2Q==",
+    "Marten/7.8.0": {
+      "sha512": "mZe+UOCP/+aAYBS0zU5ctgW+LaNAl85sFI7lfuu3dDIAnRbK2FdHgP+GA2FJJzRn9IbVyGmS2w6aOD74yON+0Q==",
       "type": "package",
-      "path": "marten/7.6.0",
+      "path": "marten/7.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1687,7 +1687,7 @@
         "lib/net7.0/Marten.xml",
         "lib/net8.0/Marten.dll",
         "lib/net8.0/Marten.xml",
-        "marten.7.6.0.nupkg.sha512",
+        "marten.7.8.0.nupkg.sha512",
         "marten.nuspec"
       ]
     },
@@ -5158,7 +5158,7 @@
     "net8.0": [
       "BuildingBlocks >= 1.0.0",
       "Carter >= 8.0.0",
-      "Marten >= 7.6.0",
+      "Marten >= 7.8.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.5",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -5200,6 +5200,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5212,7 +5217,7 @@
           },
           "Marten": {
             "target": "Package",
-            "version": "[7.6.0, )"
+            "version": "[7.8.0, )"
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
@@ -5242,7 +5247,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

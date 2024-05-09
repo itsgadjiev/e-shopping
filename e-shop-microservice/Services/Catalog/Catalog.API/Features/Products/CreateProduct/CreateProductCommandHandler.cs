@@ -3,14 +3,10 @@ public record CreateProductCommand(string Name, List<string> Category, string De
     : ICommand<CreateProductResponse>;
 public record CreateProductResult(Guid Id);
 
-internal class CreateProductCommandHandler : ICommandHandler<CreateProductCommand, CreateProductResponse>
+internal class CreateProductCommandHandler(IDocumentSession session) : ICommandHandler<CreateProductCommand, CreateProductResponse>
 {
-    private readonly IDocumentSession _session;
+    private readonly IDocumentSession _session = session;
 
-    public CreateProductCommandHandler(IDocumentSession session)
-    {
-        _session = session;
-    }
     public async Task<CreateProductResponse> Handle(CreateProductCommand command, CancellationToken cancellationToken)
     {
         Product product = new Product()

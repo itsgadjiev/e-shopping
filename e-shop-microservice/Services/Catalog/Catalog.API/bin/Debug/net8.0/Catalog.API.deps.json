@@ -10,7 +10,7 @@
         "dependencies": {
           "BuildingBlocks": "1.0.0",
           "Carter": "8.0.0",
-          "Marten": "7.6.0",
+          "Marten": "7.8.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.5",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -108,7 +108,7 @@
           }
         }
       },
-      "Marten/7.6.0": {
+      "Marten/7.8.0": {
         "dependencies": {
           "JasperFx.CodeGeneration": "3.5.0",
           "JasperFx.Core": "1.5.1",
@@ -125,8 +125,8 @@
         },
         "runtime": {
           "lib/net8.0/Marten.dll": {
-            "assemblyVersion": "7.6.0.0",
-            "fileVersion": "7.6.0.0"
+            "assemblyVersion": "7.8.0.0",
+            "fileVersion": "7.8.0.0"
           }
         }
       },
@@ -1016,12 +1016,12 @@
       "path": "mapster.core/1.2.1",
       "hashPath": "mapster.core.1.2.1.nupkg.sha512"
     },
-    "Marten/7.6.0": {
+    "Marten/7.8.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tsFTyg8hYxTdQzRt7N3vTyAaLBRXp5FqF+ODUneWekHR0BFrQ4rdWhatJ7seWrWJD5QZeZ6eomp2yuyTbwbi2Q==",
-      "path": "marten/7.6.0",
-      "hashPath": "marten.7.6.0.nupkg.sha512"
+      "sha512": "sha512-mZe+UOCP/+aAYBS0zU5ctgW+LaNAl85sFI7lfuu3dDIAnRbK2FdHgP+GA2FJJzRn9IbVyGmS2w6aOD74yON+0Q==",
+      "path": "marten/7.8.0",
+      "hashPath": "marten.7.8.0.nupkg.sha512"
     },
     "MediatR/12.2.0": {
       "type": "package",
